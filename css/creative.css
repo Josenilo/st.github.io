@@ -1114,8 +1114,8 @@ pre code {
   .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    
+    max-width: -webkit-fill-available;
   }
   .col-md-7 {
     -webkit-box-flex: 0;
@@ -1296,9 +1296,9 @@ pre code {
   }
   .col-lg-3 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 49%;
-    max-width: 50%;
+    
+    
+    max-width: -webkit-fill-available;
   }
   .col-lg-4 {
     -webkit-box-flex: 0;
@@ -8372,8 +8372,8 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.10) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.10) !important;
 }
 
 .shadow-lg {
@@ -8589,6 +8589,7 @@ button.bg-dark:focus {
 .mt-5,
 .my-5 {
   margin-top: 3rem !important;
+  margin-bottom: 3rem;
 }
 
 .mr-5,
@@ -10416,6 +10417,12 @@ button.bg-dark:focus {
 
 .text-sobre {
   color: #ffffff !important;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 30px 0;
+  font:  'Hind','Helvetica Neue',Helvetica,sans-serif;
+  line-height: 1.42857143;
+  text-align: initial;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10637,7 +10644,7 @@ hr.light {
 }
 
 .shadow, .bsa-cpc ._default_ {
-  box-shadow: 0 .15rem 1.75rem 0 rgba(33,37,41,.45)!important;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(33,37,41,.25)!important;
 }
 
 .page-section {
