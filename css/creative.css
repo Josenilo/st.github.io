@@ -1113,8 +1113,6 @@ pre code {
   }
   .col-md-6 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    
     max-width: -webkit-fill-available;
   }
   .col-md-7 {
