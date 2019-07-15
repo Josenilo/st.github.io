@@ -10416,7 +10416,6 @@ button.bg-dark:focus {
   margin: 30px 0;
   font:  'Hind','Helvetica Neue',Helvetica,sans-serif;
   line-height: 1.42857143;
-  text-align: initial;
 }
 
 a.text-primary:hover, a.text-primary:focus {
