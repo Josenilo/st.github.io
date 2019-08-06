@@ -137,6 +137,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 /* Links */
 a {
   color: #13b1cd;
@@ -170,6 +171,10 @@ a:focus {
 :active,
 :focus {
   outline: none;
+}
+
+.font-duvidas{
+font-family: Times New Roman Georgia;
 }
 
 /*----------------------------------

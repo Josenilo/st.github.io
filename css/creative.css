@@ -7131,9 +7131,9 @@ button.bg-dark:focus {
 
 .rounded-circle {
   border-radius: 16% !important;
-  box-shadow: -4px 16px 19px 7px #adb5bd
+  
 }
-
+box-shadow: -4px 16px 19px 7px #adb5bd
 .rounded-pill {
   border-radius: 50rem !important;
 }
@@ -10304,6 +10304,10 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.background-black
+{
+  background-color: #000;
+}
 .borda{
     border: 1px;
     border-style: solid;
@@ -10485,7 +10489,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #000 !important;
+  text-align:justify;
 }
 
 .text-black-50 {
@@ -10645,10 +10650,8 @@ hr.light {
 .page-section {
   padding: 15rem 0;
 }
-
-
 .page-section2 {
-  padding: 15rem 0;
+  padding: 0rem 0;
 }
 
 #mainNav {
