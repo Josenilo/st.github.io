@@ -22,7 +22,7 @@
 }
 
 .g-font-size-15--xs {
-  font-size: 0.9375rem !important;
+  font-size: 25.5px !important;
 }
 
 .g-font-size-16--xs {
@@ -34,7 +34,7 @@
 }
 
 .g-font-size-18--xs {
-  font-size: 1.125rem !important;
+  font-size: 25.5px !important;
 }
 
 .g-font-size-19--xs {
@@ -212,7 +212,8 @@
     font-size: 1.0625rem !important;
   }
   .g-font-size-18--sm {
-    font-size: 1.125rem !important;
+    font-size: 25.5px !important;
+    font-family: Blinker;
   }
   .g-font-size-19--sm {
     font-size: 1.1875rem !important;
@@ -7264,7 +7265,7 @@
 }
 
 .g-color--white-opacity-light {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .g-color--white-opacity-lighter {

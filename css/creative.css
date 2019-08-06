@@ -4452,7 +4452,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.40rem;
+  font-size: 1.67rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -7130,7 +7130,8 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 16% !important;
+  box-shadow: -4px 16px 19px 7px #adb5bd
 }
 
 .rounded-pill {
@@ -10414,9 +10415,9 @@ button.bg-dark:focus {
   font-size: 21px;
   font-weight: 300;
   margin: 30px 0;
-  font:  'Hind','Helvetica Neue',Helvetica,sans-serif;
+  font:  Blinker;
   line-height: 1.42857143;
-  text-align: initial;
+  text-align: justify;
 }
 
 a.text-primary:hover, a.text-primary:focus {
