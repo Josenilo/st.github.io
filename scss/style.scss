@@ -1,34 +1,15 @@
-// Core variables and mixins
-@import 'variables';
-@import 'mixins';
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/reset";
+@import "theme/header";
+@import "theme/responsive";
+@import "theme/banner";
+@import "theme/section-intro";
+@import "theme/home";
+@import "theme/clients";
+@import "theme/blog";
+@import "theme/contact";
+@import "theme/btn";
+@import "theme/footer";
 
-// Base
-@import 'base/base';
-@import 'base/selection';
 
-// Components
-@import 'components/button';
-@import 'components/clients';
-@import 'components/faq';
-@import 'components/form-input';
-@import 'components/icon';
-
-// Gui
-@import 'gui/promo-block';
-@import 'gui/mockup';
-@import 'gui/plan';
-@import 'gui/process';
-@import 'gui/scroll-to-section';
-@import 'gui/team';
-@import 'gui/video';
-
-// Layout
-@import 'layout/header';
-@import 'layout/header-v2';
-@import 'layout/footer';
-
-// Vendors
-@import 'vendors/back-to-top';
-@import 'vendors/cubeportfolio';
-@import 'vendors/gmap';
-@import 'vendors/swiper';
